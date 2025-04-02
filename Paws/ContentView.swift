@@ -41,8 +41,6 @@ struct ContentView: View {
                         .resizable()
                         .scaledToFit()
                         .clipShape(RoundedRectangle(cornerRadius: 8, style: .circular))
-                      
-                      
                     }
                   } else {
                     Image(systemName: "pawprint.circle")
